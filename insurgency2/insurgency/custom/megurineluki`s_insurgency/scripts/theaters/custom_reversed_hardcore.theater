@@ -1,0 +1,55 @@
+"#base"	"custom_reversed_classic.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_ak74_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_ak74_tracer"
+			}
+		}
+		
+		"weapon_aks74u_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_aks74u_tracer"
+			}
+		}
+		
+		"weapon_m16a4_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m16a4_tracer"
+			}
+		}
+		
+		"weapon_m4a1_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m4a1_tracer"
+			}
+		}
+		
+		"weapon_mk18_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mk18_tracer"
+			}
+		}
+		
+		"weapon_akm_bot"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_akm_tracer"
+			}
+		}
+	}
+}

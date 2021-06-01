@@ -1,0 +1,129 @@
+"Bot.Insurgent.Idle"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Insurgent.OpenFire"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Insurgent.Blinded"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Insurgent.InvestigateAggressive"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Insurgent_Lead.IncomingGrenade"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Insurgent_Sub.IncomingGrenade"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.Blinded"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.Blinded"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.TargetDown"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.TargetDown"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.AggressiveInvestigation"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.AggressiveInvestigation"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.FlashLightSpotted"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.FlashLightSpotted"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.FireWeapon"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.FireWeapon"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.HeardSomething"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.HeardSomething"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.Idle"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.Idle"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.BeginInvestigate"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.BeginInvestigate"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.SuppressEnemy"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.SuppressEnemy"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Lead.IncomingGrenade"
+{
+	"wave"	"common/null.wav"
+}
+
+"Bot.Security_Sub.IncomingGrenade"
+{
+	"wave"	"common/null.wav"
+}

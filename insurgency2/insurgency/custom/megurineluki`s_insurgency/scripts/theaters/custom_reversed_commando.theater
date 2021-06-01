@@ -1,0 +1,47 @@
+"#base"	"custom_reversed_classic.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"barrel_silencer_heavy"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_pistol"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_sec1"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_sec2"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_ins1"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_integrated"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_heavy_ins"
+		{
+			"class_restricted"	"0"
+		}
+		
+		"barrel_silencer_pistol_ins"
+		{
+			"class_restricted"	"0"
+		}
+	}
+}

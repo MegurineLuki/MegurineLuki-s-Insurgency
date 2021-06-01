@@ -1,0 +1,22 @@
+"#base"	"default_base.theater"
+
+"theater"
+{
+	"core"
+	{
+		"precache"
+		{
+			"sounds"	"scripts/ins_sounds_custom.txt"
+			"sounds"	"scripts/ins_sounds_cues.txt"
+			"sounds"	"scripts/ins_sounds_hq.txt"
+			"sounds"	"scripts/ins_sounds_radial_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_radial_security.txt"
+			"sounds"	"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_responses_security.txt"
+			"sounds"	"scripts/ins_sounds_voice.txt"
+			"sounds"	"scripts/ins_sounds_voice_coop.txt"
+			"sounds"	"scripts/ins_sounds_voice_survival.txt"
+			"sounds"	"scripts/ins_sounds_weapons.txt"
+		}
+	}
+}

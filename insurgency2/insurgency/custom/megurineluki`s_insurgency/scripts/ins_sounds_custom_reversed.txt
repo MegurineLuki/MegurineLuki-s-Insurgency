@@ -1,0 +1,713 @@
+"Player.Security_StartCoOp_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\gamestart6.ogg"
+	}
+}
+
+"Player.Security_StartCoOp_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\roundstart1.ogg"
+		"wave"	"*hq\insurgent\roundstart2.ogg"
+		"wave"	"*hq\insurgent\roundstart3.ogg"
+		"wave"	"*hq\insurgent\roundstart4.ogg"
+		"wave"	"*hq\insurgent\roundstart5.ogg"
+		"wave"	"*hq\insurgent\roundstart6.ogg"
+		"wave"	"*hq\insurgent\roundstart7.ogg"
+		"wave"	"*hq\insurgent\roundstart8.ogg"
+		"wave"	"*hq\insurgent\roundstart9.ogg"
+	}
+}
+
+"Player.Security_CounterAttackCoOp_Start"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\survival\survival_nextwave1.ogg"
+		"wave"	"*hq\survival\survival_nextwave2.ogg"
+		"wave"	"*hq\survival\survival_nextwave3.ogg"
+		"wave"	"*hq\survival\survival_nextwave4.ogg"
+		"wave"	"*hq\survival\survival_nextwave5.ogg"
+		"wave"	"*hq\survival\survival_nextwave6.ogg"
+		"wave"	"*hq\survival\survival_nextwave7.ogg"
+		"wave"	"*hq\survival\survival_nextwave8.ogg"
+		"wave"	"*hq\survival\survival_nextwave9.ogg"
+		"wave"	"*hq\survival\survival_nextwave10.ogg"
+		"wave"	"*hq\survival\survival_nextwave11.ogg"
+		"wave"	"*hq\survival\survival_nextwave12.ogg"
+		"wave"	"*hq\survival\survival_nextwave13.ogg"
+		"wave"	"*hq\survival\survival_nextwave14.ogg"
+		"wave"	"*hq\survival\survival_nextwave15.ogg"
+		"wave"	"*hq\survival\survival_nextwave16.ogg"
+		"wave"	"*hq\survival\survival_nextwave17.ogg"
+		"wave"	"*hq\survival\survival_nextwave18.ogg"
+		"wave"	"*hq\survival\survival_nextwave19.ogg"
+		"wave"	"*hq\survival\survival_nextwave20.ogg"
+		"wave"	"*hq\survival\survival_nextwave21.ogg"
+		"wave"	"*hq\survival\survival_nextwave22.ogg"
+	}
+}
+
+"Player.Security_CounterAttackCoOp_End"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\enemyout1.ogg"
+		"wave"	"*hq\insurgent\enemyout2.ogg"
+		"wave"	"*hq\insurgent\enemyout3.ogg"
+		"wave"	"*hq\insurgent\enemyout4.ogg"
+		"wave"	"*hq\insurgent\enemyout5.ogg"
+		"wave"	"*hq\insurgent\enemyout6.ogg"
+		"wave"	"*hq\insurgent\enemyout7.ogg"
+		"wave"	"*hq\insurgent\enemyout8.ogg"
+		"wave"	"*hq\insurgent\enemyout9.ogg"
+		"wave"	"*hq\insurgent\enemyout10.ogg"
+	}
+}
+
+"Player.Security_StartHunt_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\searchanddestroy1.ogg"
+	}
+}
+
+"Player.Security_StartHunt_Game_Day"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\searchanddestroy1.ogg"
+	}
+}
+
+"Player.Security_StartHunt_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\roundstart_strike1.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike2.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike3.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike4.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike5.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike6.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike7.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike8.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike9.ogg"
+		"wave"	"*hq\insurgent\roundstart_strike10.ogg"
+	}
+}
+
+"Player.Security_Hunt_ManDown"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Hunt_CacheDiscovery_Negative"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\false1.ogg"
+		"wave"	"*hq\insurgent\false2.ogg"
+		"wave"	"*hq\insurgent\false3.ogg"
+		"wave"	"*hq\insurgent\false4.ogg"
+	}
+}
+
+"Player.Security_Hunt_CacheDiscovery_Positive"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\located1.ogg"
+		"wave"	"*hq\insurgent\located2.ogg"
+		"wave"	"*hq\insurgent\located3.ogg"
+		"wave"	"*hq\insurgent\located4.ogg"
+	}
+}
+
+"Player.Security_Hunt_AllEnemyDead"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Hunt_HalfEnemyDead"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Hunt_CacheDestroyed_EnemyLeft"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Hunt_CacheDestroyed_AllEnemyDead"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Hunt_EnemyDead_DestroyCache"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Insurgent_StartSurvival_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.70"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\outpost\outpostalt_gamestart_obj1.ogg"
+	}
+}
+
+"Player.Insurgent_StartSurvival_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj1.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj2.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj3.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj4.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj5.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj6.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj7.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj8.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj9.ogg"
+		"wave"	"*hq\outpost\outpostalt_roundstart_obj10.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_NextWave"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\outpost\outpost_nextwave1.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave2.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave3.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave4.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave5.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave6.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave7.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave8.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave9.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave10.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave11.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave12.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave13.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave14.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave15.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave16.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave17.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave18.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave19.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave20.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave21.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave22.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave23.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave24.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave25.ogg"
+		"wave"	"*hq\outpost\outpost_nextwave26.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredAlpha"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\captured1.ogg"
+		"wave"	"*hq\security\captured2.ogg"
+		"wave"	"*hq\security\captured3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredBravo"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\captured13.ogg"
+		"wave"	"*hq\security\captured14.ogg"
+		"wave"	"*hq\security\captured15.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredCharlie"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\captured25.ogg"
+		"wave"	"*hq\security\captured26.ogg"
+		"wave"	"*hq\security\captured27.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredDelta"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\captured37.ogg"
+		"wave"	"*hq\security\captured38.ogg"
+		"wave"	"*hq\security\captured39.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredEcho"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\captured49.ogg"
+		"wave"	"*hq\security\captured50.ogg"
+		"wave"	"*hq\security\captured51.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredFoxtrot"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\foxtrotcap1.ogg"
+		"wave"	"*hq\security\foxtrotcap2.ogg"
+		"wave"	"*hq\security\foxtrotcap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredGolf"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\golfcap1.ogg"
+		"wave"	"*hq\security\golfcap2.ogg"
+		"wave"	"*hq\security\golfcap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredHotel"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\hotelcap1.ogg"
+		"wave"	"*hq\security\hotelcap2.ogg"
+		"wave"	"*hq\security\hotelcap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredIndia"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\indiacap1.ogg"
+		"wave"	"*hq\security\indiacap2.ogg"
+		"wave"	"*hq\security\indiacap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredJuliet"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\julietcap1.ogg"
+		"wave"	"*hq\security\julietcap2.ogg"
+		"wave"	"*hq\security\julietcap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredKilo"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\kilocap1.ogg"
+		"wave"	"*hq\security\kilocap2.ogg"
+		"wave"	"*hq\security\kilocap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredLima"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\limacap1.ogg"
+		"wave"	"*hq\security\limacap2.ogg"
+		"wave"	"*hq\security\limacap3.ogg"
+	}
+}
+
+"Player.Insurgent_Survival_SecuredMike"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\security\mikecap1.ogg"
+		"wave"	"*hq\security\mikecap2.ogg"
+		"wave"	"*hq\security\mikecap3.ogg"
+	}
+}
+
+"Player.Security_StartOutpost_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.70"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\strike_gamestart_defending1.ogg"
+	}
+}
+
+"Player.Security_StartOutpost_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\strike_roundstart_defending1.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending2.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending3.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending4.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending5.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending6.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending7.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending8.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending9.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending10.ogg"
+	}
+}
+
+"Player.Security_StartOutpost_Round_Night"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\strike_roundstart_defending1.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending2.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending3.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending4.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending5.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending6.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending7.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending8.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending9.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending10.ogg"
+	}
+}
+
+"Player.Security_Outpost_NextWave"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\survival\survival_nextwave1.ogg"
+		"wave"	"*hq\survival\survival_nextwave2.ogg"
+		"wave"	"*hq\survival\survival_nextwave3.ogg"
+		"wave"	"*hq\survival\survival_nextwave4.ogg"
+		"wave"	"*hq\survival\survival_nextwave5.ogg"
+		"wave"	"*hq\survival\survival_nextwave6.ogg"
+		"wave"	"*hq\survival\survival_nextwave7.ogg"
+		"wave"	"*hq\survival\survival_nextwave8.ogg"
+		"wave"	"*hq\survival\survival_nextwave9.ogg"
+		"wave"	"*hq\survival\survival_nextwave10.ogg"
+		"wave"	"*hq\survival\survival_nextwave11.ogg"
+		"wave"	"*hq\survival\survival_nextwave12.ogg"
+		"wave"	"*hq\survival\survival_nextwave13.ogg"
+		"wave"	"*hq\survival\survival_nextwave14.ogg"
+		"wave"	"*hq\survival\survival_nextwave15.ogg"
+		"wave"	"*hq\survival\survival_nextwave16.ogg"
+		"wave"	"*hq\survival\survival_nextwave17.ogg"
+		"wave"	"*hq\survival\survival_nextwave18.ogg"
+		"wave"	"*hq\survival\survival_nextwave19.ogg"
+		"wave"	"*hq\survival\survival_nextwave20.ogg"
+		"wave"	"*hq\survival\survival_nextwave21.ogg"
+		"wave"	"*hq\survival\survival_nextwave22.ogg"
+	}
+}
+
+"Player.Security_Outpost_CacheDestroyed"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Outpost_NextLevel_OneThrough20"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Outpost_NextLevel_20AndAbove"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Outpost_NextLevel_Level100"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Outpost_CacheTakesDamage"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\defendcache1.ogg"
+		"wave"	"*hq\insurgent\defendcache2.ogg"
+		"wave"	"*hq\insurgent\defendcache3.ogg"
+		"wave"	"*hq\insurgent\defendcache4.ogg"
+		"wave"	"*hq\insurgent\defendcache5.ogg"
+		"wave"	"*hq\insurgent\defendcache6.ogg"
+	}
+}
+
+"Player.Security_StartOutpostAlt_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.70"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\strike_gamestart_defending1.ogg"
+	}
+}
+
+"Player.Security_StartOutpostAlt_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\strike_roundstart_defending1.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending2.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending3.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending4.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending5.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending6.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending7.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending8.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending9.ogg"
+		"wave"	"*hq\insurgent\strike_roundstart_defending10.ogg"
+	}
+}
+
+"Player.Security_OutpostAlt_LostObjective"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_StartConquer_Game"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\gamestart4.ogg"
+	}
+}
+
+"Player.Security_StartConquer_Round"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\roundstart1.ogg"
+		"wave"	"*hq\insurgent\roundstart2.ogg"
+		"wave"	"*hq\insurgent\roundstart3.ogg"
+		"wave"	"*hq\insurgent\roundstart4.ogg"
+		"wave"	"*hq\insurgent\roundstart5.ogg"
+		"wave"	"*hq\insurgent\roundstart6.ogg"
+		"wave"	"*hq\insurgent\roundstart7.ogg"
+		"wave"	"*hq\insurgent\roundstart8.ogg"
+		"wave"	"*hq\insurgent\roundstart9.ogg"
+	}
+}
+
+"Player.Security_Conquer_AllCachesDestroyed"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\enemyout1.ogg"
+		"wave"	"*hq\insurgent\enemyout2.ogg"
+		"wave"	"*hq\insurgent\enemyout3.ogg"
+		"wave"	"*hq\insurgent\enemyout4.ogg"
+		"wave"	"*hq\insurgent\enemyout5.ogg"
+		"wave"	"*hq\insurgent\enemyout6.ogg"
+		"wave"	"*hq\insurgent\enemyout7.ogg"
+		"wave"	"*hq\insurgent\enemyout8.ogg"
+		"wave"	"*hq\insurgent\enemyout9.ogg"
+		"wave"	"*hq\insurgent\enemyout10.ogg"
+	}
+}
+
+"Player.Security_Conquer_EnemyRetookObjective"
+{
+	"wave"	"common/null.wav"
+}
+
+"Player.Security_Conquer_FoundCache"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"*hq\insurgent\located1.ogg"
+		"wave"	"*hq\insurgent\located2.ogg"
+		"wave"	"*hq\insurgent\located3.ogg"
+		"wave"	"*hq\insurgent\located4.ogg"
+	}
+}

@@ -1,0 +1,66 @@
+"#base"	"default_gear_test.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_light_armor"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"	"1.0"
+				"HITGROUP_RIGHTARM"	"1.0"
+			}
+		}
+		
+		"sec_heavy_armor"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"	"1.0"
+				"HITGROUP_RIGHTARM"	"1.0"
+			}
+		}
+		
+		"ins_light_armor"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"	"1.0"
+				"HITGROUP_RIGHTARM"	"1.0"
+			}
+		}
+		
+		"ins_heavy_armor"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_LEFTARM"	"1.0"
+				"HITGROUP_RIGHTARM"	"1.0"
+			}
+		}
+		
+		"?nightmap"
+		{
+			"sec_nightvision"
+			{
+				"gear_weight"	"32"
+				
+				"player_model_bodygroups"
+				{
+					"glasses"	"0"
+				}
+			}
+			
+			"ins_nightvision"
+			{
+				"gear_weight"	"32"
+				
+				"player_model_bodygroups"
+				{
+					"glasses"	"0"
+				}
+			}
+		}
+	}
+}

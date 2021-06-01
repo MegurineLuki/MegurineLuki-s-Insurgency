@@ -1,0 +1,115 @@
+"#base"	"custom_guardian.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Leader_Specialist"	"template_specialist_security"
+					"#Squad_Fireteam_Specialist"	"template_specialist_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Grenadier"	"template_grenadier_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
+					"#Squad_Fireteam_Sniper"	"template_sniper_security"
+				}
+				
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Leader_Recon"	"template_recon_security"
+					"#Squad_Fireteam_Specialist"	"template_specialist_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Grenadier"	"template_grenadier_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
+					"#Squad_Fireteam_Sniper"	"template_sniper_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Bravo"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Charlie"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Delta"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Echo"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Foxtrot"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+			}
+		}
+	}
+}

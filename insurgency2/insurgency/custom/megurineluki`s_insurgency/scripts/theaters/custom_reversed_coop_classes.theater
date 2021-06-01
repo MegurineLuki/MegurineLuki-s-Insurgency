@@ -1,0 +1,1823 @@
+"theater"
+{
+	"weapons"
+	{
+		"weapon_kabar_bot"
+		{
+			"import"	"weapon_kabar"
+			"class_restricted"	"1"
+			"melee"	""
+			"weapon_slot"	"explosive"
+		}
+		
+		"weapon_gurkha_bot"
+		{
+			"import"	"weapon_gurkha"
+			"class_restricted"	"1"
+			"melee"	""
+			"weapon_slot"	"explosive"
+		}
+		
+		"weapon_ak74_bot"
+		{
+			"import"	"weapon_ak74"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_ak74"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_aks74u_bot"
+		{
+			"import"	"weapon_aks74u"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_aks74u"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_m16a4_bot"
+		{
+			"import"	"weapon_m16a4"
+			"recoil"	""
+			"rounds_per_minute"	"600"
+			"weapon_class"	"smg"
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m16a4"
+			}
+			
+			"ballistics"
+			{
+				"FireModes"	"full"
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_m249_bot"
+		{
+			"import"	"weapon_m249"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m249"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_m4a1_bot"
+		{
+			"import"	"weapon_m4a1"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m4a1"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_mk18_bot"
+		{
+			"import"	"weapon_mk18"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mk18"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_akm_bot"
+		{
+			"import"	"weapon_akm"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_akm"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+		
+		"weapon_rpk_bot"
+		{
+			"import"	"weapon_rpk"
+			"recoil"	""
+			"weapon_slot"	"melee"
+			"weapon_weight"	"1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_rpk"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0 0 0"
+			}
+		}
+	}
+	
+	"player_gear"
+	{
+		"sec_chest_carrier_bot"
+		{
+			"import"	"sec_chest_carrier"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+			
+			"weapon_slots"
+			{
+				"explosive"	"2"
+			}
+		}
+		
+		"ins_chest_carrier_bot"
+		{
+			"import"	"ins_chest_carrier"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+			
+			"weapon_slots"
+			{
+				"explosive"	"2"
+			}
+		}
+		
+		"sec_light_armor_bot"
+		{
+			"import"	"sec_light_armor"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+		}
+		
+		"sec_heavy_armor_bot"
+		{
+			"import"	"sec_heavy_armor"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+		}
+		
+		"ins_light_armor_bot"
+		{
+			"import"	"ins_light_armor"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+		}
+		
+		"ins_heavy_armor_bot"
+		{
+			"import"	"ins_heavy_armor"
+			"class_restricted"	"1"
+			"gear_weight"	"1"
+		}
+		
+		"?nightmap"
+		{
+			"sec_nightvision_bot"
+			{
+				"import"	"sec_nightvision"
+				"class_restricted"	"1"
+				"gear_weight"	"1"
+			}
+			
+			"ins_nightvision_bot"
+			{
+				"import"	"ins_nightvision"
+				"class_restricted"	"1"
+				"gear_weight"	"1"
+			}
+		}
+	}
+	
+	"player_templates"
+	{
+		"template_recon_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_specialist_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_rifleman_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m67"	"-100"
+				}
+			}
+		}
+		
+		"template_breacher_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_at4"	"-100"
+				}
+			}
+		}
+		
+		"template_engineer_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_at4"	"-100"
+				}
+			}
+		}
+		
+		"template_demolitions_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_at4"	"-100"
+				}
+			}
+		}
+		
+		"template_grenadier_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_at4"	"-100"
+				}
+			}
+		}
+		
+		"template_support_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m18"	"-100"
+				}
+			}
+		}
+		
+		"template_designated_marksman_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m67"	"-100"
+				}
+			}
+		}
+		
+		"template_sniper_security_coop"
+		{
+			"print_name"	"#Team_Security"
+			
+			"models"
+			{
+				"player"	"models/characters/security_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	""
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m67"	"-100"
+				}
+			}
+		}
+		
+		"template_scout_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_specialist_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_militant_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_molotov"	"-100"
+				}
+			}
+		}
+		
+		"template_fighter_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_sapper_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_rpg7"	"-100"
+				}
+			}
+		}
+		
+		"template_bomber_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_rpg7"	"-100"
+				}
+			}
+		}
+		
+		"template_striker_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_rpg7"	"-100"
+				}
+			}
+		}
+		
+		"template_rocketeer_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_rpg7"	"-100"
+				}
+			}
+		}
+		
+		"template_machinegunner_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m18"	"-100"
+				}
+			}
+		}
+		
+		"template_sharpshooter_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_sniper_insurgent_coop"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_base_01_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_base_02_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_base_03_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_base_04_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_base_05_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_officer_01_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+					"glasses"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_officer_02_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+					"glasses"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_officer_03_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+					"glasses"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_officer_04_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+					"glasses"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_officer_05_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+					"glasses"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_m249_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"	"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m18"	"-100"
+				}
+			}
+		}
+		
+		"template_survival_at4_security"
+		{
+			"print_name"	"#Team_Insurgent"
+			
+			"models"
+			{
+				"player"	"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"2"
+					"backpack"	"1"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_rpg7"	"-100"
+				}
+			}
+		}
+	}
+}

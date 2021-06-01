@@ -1,0 +1,273 @@
+"#base"	"custom.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"name"	"#Team_Insurgent"
+			"logo"	"gameui/fac_ins"
+		}
+		
+		"insurgents"
+		{
+			"name"	"#Team_Security"
+			"logo"	"gameui/fac_sec"
+		}
+	}
+	
+	"core"
+	{
+		"precache"
+		{
+			"sounds"	"scripts/ins_sounds_custom.txt"
+			"sounds"	"scripts/ins_sounds_custom_reversed.txt"
+			"sounds"	"scripts/ins_sounds_custom_cues.txt"
+			"sounds"	"scripts/ins_sounds_custom_hq.txt"
+			"sounds"	"scripts/ins_sounds_custom_radial_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_custom_radial_security.txt"
+			"sounds"	"scripts/ins_sounds_custom_responses_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_custom_responses_security.txt"
+			"sounds"	"scripts/ins_sounds_custom_voice.txt"
+			"sounds"	"scripts/ins_sounds_cues.txt"
+			"sounds"	"scripts/ins_sounds_hq.txt"
+			"sounds"	"scripts/ins_sounds_radial_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_radial_security.txt"
+			"sounds"	"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"	"scripts/ins_sounds_responses_security.txt"
+			"sounds"	"scripts/ins_sounds_voice.txt"
+			"sounds"	"scripts/ins_sounds_voice_coop.txt"
+			"sounds"	"scripts/ins_sounds_voice_survival.txt"
+			"sounds"	"scripts/ins_sounds_weapons.txt"
+		}
+	}
+	
+	"weapons"
+	{
+		"weapon_m67"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"weapon_f1"
+		{
+			"team_access"	"security"
+		}
+		
+		"weapon_model10"
+		{
+			"team_access"	"security"
+		}
+		
+		"weapon_m9"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"weapon_makarov"
+		{
+			"team_access"	"security"
+		}
+		
+		"weapon_m45"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"weapon_m1911"
+		{
+			"team_access"	"security"
+		}
+	}
+	
+	"weapon_upgrades"
+	{
+		"optic_eotech"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"optic_aimpoint"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"optic_kobra"
+		{
+			"team_access"	"security"
+		}
+		
+		"optic_elcan"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"optic_po4x24"
+		{
+			"team_access"	"security"
+		}
+		
+		"barrel_heavybarrel"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"barrel_silencer_heavy"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"barrel_silencer_sec1"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"barrel_silencer_sec2"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"barrel_silencer_ins1"
+		{
+			"team_access"	"security"
+		}
+		
+		"underbarrel_foregrip_sec1"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"underbarrel_foregrip_sec2"
+		{
+			"team_access"	"insurgents"
+		}
+	}
+	
+	"player_gear"
+	{
+		"sec_chest_rig"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"sec_chest_carrier"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"ins_chest_rig"
+		{
+			"team_access"	"security"
+		}
+		
+		"ins_chest_carrier"
+		{
+			"team_access"	"security"
+		}
+		
+		"sec_light_armor"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"sec_heavy_armor"
+		{
+			"team_access"	"insurgents"
+		}
+		
+		"ins_light_armor"
+		{
+			"team_access"	"security"
+		}
+		
+		"ins_heavy_armor"
+		{
+			"team_access"	"security"
+		}
+		
+		"?nightmap"
+		{
+			"sec_nightvision"
+			{
+				"team_access"	"insurgents"
+			}
+			
+			"ins_nightvision"
+			{
+				"team_access"	"security"
+			}
+		}
+	}
+	
+	"player_templates"
+	{
+		"template_vip_security"
+		{
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_m1911"
+				"weapon_upgrade"	"ammo_ap_m1911"
+				"gear"	"ins_chest_carrier"
+				"gear"	"ins_nightvision"
+			}
+		}
+		
+		"template_vip_security_elimination"
+		{
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_insurgent.mdl"
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_m1911"
+				"weapon_upgrade"	"ammo_ap_m1911"
+				"gear"	"ins_chest_carrier"
+				"gear"	"ins_nightvision"
+			}
+		}
+		
+		"template_vip_insurgent"
+		{
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_security.mdl"
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m45"
+				"weapon_upgrade"	"ammo_ap_m45"
+				"gear"	"sec_chest_carrier"
+				"gear"	"sec_nightvision"
+			}
+		}
+		
+		"template_vip_insurgent_elimination"
+		{
+			"models"
+			{
+				"player"	"models/characters/civilian_vip_security.mdl"
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m45"
+				"weapon_upgrade"	"ammo_ap_m45"
+				"gear"	"sec_chest_carrier"
+				"gear"	"sec_nightvision"
+			}
+		}
+	}
+}

@@ -1,0 +1,747 @@
+"#base"	"default_weapon.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_kabar"
+		{
+			"melee"
+			{
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"EndDirection"	"E"
+						"StartDirection"	"W"
+					}
+				}
+			}
+		}
+		
+		"weapon_gurkha"
+		{
+			"melee"
+			{
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"EndDirection"	"E"
+						"StartDirection"	"W"
+					}
+				}
+			}
+		}
+		
+		"weapon_p2a1"
+		{
+			"barrel_length"	"16"
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_m18"
+		{
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_m84"
+		{
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_m67"
+		{
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_f1"
+		{
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_molotov"
+		{
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_c4_clicker"
+		{
+			"barrel_length"	"-1"
+		}
+		
+		"weapon_c4_ied"
+		{
+			"barrel_length"	"-1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"grenade_ied"
+			}
+		}
+		
+		"weapon_at4"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"rocket_at4"
+				"clip_default"	"0"
+			}
+		}
+		
+		"weapon_rpg7"
+		{
+			"barrel_length"	"40"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"rocket_rpg7"
+				"clip_default"	"0"
+			}
+		}
+		
+		"weapon_m203_he"
+		{
+			"barrel_length"	"24"
+		}
+		
+		"weapon_m203_smoke"
+		{
+			"barrel_length"	"24"
+		}
+		
+		"weapon_gp25_he"
+		{
+			"act_table"	"rifle_ak"
+			"barrel_length"	"24"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"grenade_gp25_he"
+			}
+		}
+		
+		"weapon_gp25_smoke"
+		{
+			"act_table"	"rifle_ak"
+			"barrel_length"	"24"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"grenade_gp25_smoke"
+			}
+		}
+		
+		"weapon_model10"
+		{
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_model10"
+				"clip_default"	"12"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+		}
+		
+		"weapon_m590"
+		{
+			"barrel_length"	"24"
+			"closed_bolt"	"0"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_m590"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+			}
+		}
+		
+		"weapon_toz"
+		{
+			"barrel_length"	"24"
+			"closed_bolt"	"0"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_toz"
+				"clip_default"	"24"
+				"clip_max_rounds"	"8"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"2.0 2.0 0.0"
+			}
+		}
+		
+		"weapon_m40a1"
+		{
+			"barrel_length"	"40"
+			"closed_bolt"	"0"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_m40a1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+			}
+		}
+		
+		"weapon_mosin"
+		{
+			"barrel_length"	"40"
+			"closed_bolt"	"0"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_mosin"
+			}
+		}
+		
+		"weapon_m9"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m9"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+		}
+		
+		"weapon_makarov"
+		{
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_makarov"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+		}
+		
+		"weapon_m45"
+		{
+			"weapon_cost"	"0"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m45"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+		}
+		
+		"weapon_m1911"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1911"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+		}
+		
+		"weapon_mp5"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mp5"
+			}
+		}
+		
+		"weapon_mp40"
+		{
+			"rounds_per_minute"	"550"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mp40"
+			}
+			
+			"particles"
+			{
+				"particle_tracer"	"weapon_tracers_green"
+			}
+		}
+		
+		"weapon_sterling"
+		{
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_sterling"
+			}
+			
+			"particles"
+			{
+				"particle_tracer"	"weapon_tracers_green"
+			}
+		}
+		
+		"weapon_ump45"
+		{
+			"barrel_length"	"16"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_ump45"
+			}
+		}
+		
+		"weapon_ak74"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_ak74"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_aks74u"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_aks74u"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_mini14"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mini14"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_m16a4"
+		{
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m16a4"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.16 0.16 0.16"
+			}
+		}
+		
+		"weapon_m249"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m249"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+			}
+		}
+		
+		"weapon_m4a1"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m4a1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_mk18"
+		{
+			"barrel_length"	"16"
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mk18"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_galil_sar"
+		{
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_galil_sar"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_galil"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_galil"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+			
+			"particles"
+			{
+				"particle_tracer"	"weapon_tracers_green"
+			}
+		}
+		
+		"weapon_m1a1"
+		{
+			"barrel_length"	"24"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1a1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"particles"
+			{
+				"particle_tracer"	"weapon_tracers_green"
+			}
+		}
+		
+		"weapon_sks"
+		{
+			"barrel_length"	"24"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_sks"
+			}
+		}
+		
+		"weapon_akm"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_akm"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.32 0.32 0.32"
+			}
+		}
+		
+		"weapon_rpk"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_rpk"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+			}
+		}
+		
+		"weapon_m14"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m14"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.16 0.16 0.16"
+			}
+		}
+		
+		"weapon_l1a1"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"rifle_controlled_fire"
+			"weapon_weight"	"256"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_l1a1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+			}
+		}
+		
+		"weapon_fal"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			"weapon_weight"	"256"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_fal"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+			}
+			
+			"particles"
+			{
+				"particle_tracer"	"weapon_tracers_green"
+			}
+		}
+	}
+	
+	"explosives"
+	{
+		"grenade_flare"
+		{
+			"DetonateDamageRadius"	"75"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+		}
+		
+		"grenade_m18"
+		{
+			"RocketStartSpeed"	"2000"
+		}
+		
+		"grenade_m67"
+		{
+			"ShakeAmplitude"	"200"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"750"
+		}
+		
+		"grenade_f1"
+		{
+			"ShakeAmplitude"	"200"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"750"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"BaseGrenade.ExplodeWater"
+			}
+		}
+		
+		"grenade_anm14"
+		{
+			"DetonateDamageRadius"	"120"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+		}
+		
+		"grenade_molotov"
+		{
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_c4"
+		{
+			"DetonateDamage"	"400"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1200"
+		}
+		
+		"grenade_ied"
+		{
+			"DetonateDamage"	"400"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1200"
+		}
+		
+		"rocket_at4"
+		{
+			"DetonateDamage"	"240"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1000"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"Weapon_RPG7.HitWater"
+			}
+		}
+		
+		"rocket_rpg7"
+		{
+			"DetonateDamage"	"240"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1000"
+		}
+		
+		"grenade_m203_he"
+		{
+			"DetonateDamage"	"180"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"ShakeAmplitude"	"200"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"BaseGrenade.ExplodeWater"
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_m203_smoke"
+		{
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_gp25_he"
+		{
+			"DetonateDamage"	"180"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"ShakeAmplitude"	"200"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"BaseGrenade.ExplodeWater"
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_gp25_smoke"
+		{
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+	}
+}

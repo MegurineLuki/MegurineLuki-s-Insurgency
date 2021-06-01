@@ -1,0 +1,104 @@
+"#base"	"custom_reversed_coop_shared.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_p2a1"
+		{
+			"?nightmap"
+			{
+				"class_restricted"	"1"
+			}
+		}
+		
+		"weapon_m18"
+		{
+			"class_restricted"	"1"
+		}
+	}
+	
+	"player_templates"
+	{
+		"template_specialist_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_mk18"
+				"weapon_upgrade"	"barrel_silencer_sec2"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m84"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_breacher_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m4a1"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_c4_clicker"
+				"weapon"	"weapon_m84"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_engineer_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m4a1"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_c4_clicker"
+				"weapon"	"weapon_m84"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_support_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m249"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m84"
+				"gear"	"sec_heavy_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_scout_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_aks74u"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_m84"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_specialist_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_ak74"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_m84"
+				"gear"	"ins_chest_rig"
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+"#base"	"custom_reversed_coop_shared.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Squad_Cell_Leader_Specialist"	"template_specialist_insurgent"
+					"#Squad_Cell_Militant"	"template_militant_insurgent"
+					"#Squad_Cell_Fighter"	"template_fighter_insurgent"
+					"#Squad_Cell_Fighter"	"template_fighter_insurgent"
+					"#Squad_Cell_Fighter"	"template_fighter_insurgent"
+					"#Squad_Cell_Sapper"	"template_sapper_insurgent"
+					"#Squad_Cell_MachineGunner"	"template_machinegunner_insurgent"
+					"#Squad_Cell_Sharpshooter"	"template_sharpshooter_insurgent"
+				}
+				
+				"#Cell_Bravo"
+				{
+					"#Squad_Cell_Leader_Militant"	"template_militant_insurgent"
+					"#Squad_Cell_Scout"	"template_scout_insurgent"
+					"#Squad_Cell_Bomber"	"template_bomber_insurgent"
+					"#Squad_Cell_MachineGunner"	"template_machinegunner_insurgent"
+					"#Squad_Cell_Striker"	"template_striker_insurgent"
+					"#Squad_Cell_Sharpshooter"	"template_sharpshooter_insurgent"
+					"#Squad_Cell_MachineGunner"	"template_machinegunner_insurgent"
+					"#Squad_Cell_Sniper"	"template_sniper_insurgent"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+				
+				"#Fireteam_Bravo"
+				{
+					"#Team_Security"	"template_recon_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+				
+				"#Fireteam_Charlie"
+				{
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+				
+				"#Fireteam_Delta"
+				{
+					"#Team_Security"	"template_recon_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+				
+				"#Fireteam_Echo"
+				{
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+				
+				"#Fireteam_Foxtrot"
+				{
+					"#Team_Security"	"template_recon_security_coop"
+					"#Team_Security"	"template_specialist_security_coop"
+					"#Team_Security"	"template_rifleman_security_coop"
+					"#Team_Security"	"template_grenadier_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_support_security_coop"
+					"#Team_Security"	"template_designated_marksman_security_coop"
+					"#Team_Security"	"template_sniper_security_coop"
+				}
+			}
+		}
+	}
+}

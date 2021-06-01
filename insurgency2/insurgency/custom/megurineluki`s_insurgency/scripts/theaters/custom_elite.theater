@@ -1,0 +1,506 @@
+"#base"	"custom_hardcore.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"base_lasersight_bot"
+		{
+			"import"	"base_lasersight"
+			
+			"allowed_weapons"
+			{
+				"weapon"	"weapon_ak74_bot"
+				"weapon"	"weapon_akm_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon"	"weapon_m249_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon"	"weapon_rpk_bot"
+			}
+		}
+	}
+	
+	"player_templates"
+	{
+		"template_recon_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_specialist_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_rifleman_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_breacher_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_engineer_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_demolitions_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_grenadier_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_support_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_designated_marksman_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_sniper_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_scout_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_specialist_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_militant_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_ak74_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_fighter_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_sapper_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_bomber_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_striker_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_rocketeer_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_rpg7"
+				"weapon"	"weapon_molotov"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_aks74u_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_machinegunner_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_sharpshooter_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_sniper_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_akm_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"ins_light_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+		}
+		
+		"template_survival_base_01_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_base_02_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_base_03_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_base_04_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_base_05_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m16a4_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_light_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_officer_01_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_officer_02_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_officer_03_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_officer_04_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_officer_05_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_m84"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m4a1_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_m249_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_m18"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+		
+		"template_survival_at4_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_at4"
+				"weapon"	"weapon_anm14"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_mk18_bot"
+				"weapon_upgrade"	"base_lasersight_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+		}
+	}
+}

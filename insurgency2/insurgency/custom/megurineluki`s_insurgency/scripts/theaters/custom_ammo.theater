@@ -1,0 +1,1445 @@
+"#base"	"base_common_ammo_test.theater"
+
+"theater"
+{
+	"ammo"
+	{
+		"invalid"
+		{
+			"carry"	"0"
+		}
+		
+		"grenade_flares"
+		{
+			"carry"	"1"
+		}
+		
+		"grenade_m18"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_m84"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_m67"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_f1"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_anm14"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_molotov"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_c4"
+		{
+			"carry"	"1"
+		}
+		
+		"grenade_ied"
+		{
+			"carry"	"1"
+		}
+		
+		"rocket_at4"
+		{
+			"carry"	"1"
+		}
+		
+		"rocket_rpg7"
+		{
+			"carry"	"1"
+		}
+		
+		"grenade_m203_he"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_m203_smoke"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_gp25_he"
+		{
+			"carry"	"3"
+		}
+		
+		"grenade_gp25_smoke"
+		{
+			"carry"	"3"
+		}
+		
+		"value_9x19mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/9x19.mdl"
+			"SuppressionIncrement"	"30"
+			
+			"Damage"
+			{
+				"10"	"60"
+				"8000"	"32"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"0.60"
+				"HITGROUP_STOMACH"	"0.60"
+				"HITGROUP_LEFTARM"	"1.30"
+				"HITGROUP_RIGHTARM"	"1.30"
+				"HITGROUP_LEFTLEG"	"1.30"
+				"HITGROUP_RIGHTLEG"	"1.30"
+			}
+		}
+		
+		"value_9x19mm_hp"
+		{
+			"import"	"value_9x19mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"150"
+				"8000"	"100"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_9x19mm_ap"
+		{
+			"import"	"value_9x19mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"500"
+				"8000"	"250"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"250"	"0.5"
+				"500"	"0.1"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"0.60"
+				"HITGROUP_STOMACH"	"0.60"
+				"HITGROUP_LEFTARM"	"1.10"
+				"HITGROUP_RIGHTARM"	"1.10"
+				"HITGROUP_LEFTLEG"	"1.10"
+				"HITGROUP_RIGHTLEG"	"1.10"
+			}
+		}
+		
+		"value_45acp"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/45apc.mdl"
+			"SuppressionIncrement"	"30"
+			
+			"Damage"
+			{
+				"10"	"76"
+				"8000"	"32"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"0.60"
+				"HITGROUP_STOMACH"	"0.60"
+				"HITGROUP_LEFTARM"	"1.50"
+				"HITGROUP_RIGHTARM"	"1.50"
+				"HITGROUP_LEFTLEG"	"1.50"
+				"HITGROUP_RIGHTLEG"	"1.50"
+			}
+		}
+		
+		"value_45acp_hp"
+		{
+			"import"	"value_45acp"
+			
+			"PenetrationPower"
+			{
+				"10"	"150"
+				"8000"	"100"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_45acp_ap"
+		{
+			"import"	"value_45acp"
+			
+			"PenetrationPower"
+			{
+				"10"	"500"
+				"8000"	"250"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"250"	"0.5"
+				"500"	"0.1"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"0.60"
+				"HITGROUP_STOMACH"	"0.60"
+				"HITGROUP_LEFTARM"	"1.30"
+				"HITGROUP_RIGHTARM"	"1.30"
+				"HITGROUP_LEFTLEG"	"1.30"
+				"HITGROUP_RIGHTLEG"	"1.30"
+			}
+		}
+		
+		"value_buckshot"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/12guage.mdl"
+			"brass_sound"	"BOUNCE_SHOTSHELL"
+			"bulletcount"	"12"
+			"DamageType"	"DMG_BUCKSHOT"
+			
+			"Damage"
+			{
+				"1000"	"40"
+				"2000"	"20"
+				"8000"	"4"
+			}
+			
+			"PenetrationPower"
+			{
+				"1000"	"130"
+				"8000"	"10"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"0.60"
+				"HITGROUP_STOMACH"	"0.60"
+				"HITGROUP_LEFTARM"	"1.00"
+				"HITGROUP_RIGHTARM"	"1.00"
+				"HITGROUP_LEFTLEG"	"1.00"
+				"HITGROUP_RIGHTLEG"	"1.00"
+			}
+		}
+		
+		"value_slug"
+		{
+			"import"	"value_buckshot"
+			"bulletcount"	"1"
+			
+			"Damage"
+			{
+				"1000"	"288"
+				"2000"	"144"
+				"8000"	"40"
+			}
+			
+			"PenetrationPower"
+			{
+				"1000"	"750"
+				"8000"	"100"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"100"	"0.5"
+				"750"	"0.1"
+			}
+		}
+		
+		"value_545x39mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/545x39.mdl"
+			
+			"Damage"
+			{
+				"10"	"80"
+				"8000"	"40"
+			}
+		}
+		
+		"value_545x39mm_hp"
+		{
+			"import"	"value_545x39mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"150"
+				"8000"	"100"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_545x39mm_ap"
+		{
+			"import"	"value_545x39mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"500"
+				"8000"	"250"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"250"	"0.5"
+				"500"	"0.1"
+			}
+		}
+		
+		"value_556x45mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/556x45.mdl"
+			
+			"Damage"
+			{
+				"10"	"100"
+				"2700"	"80"
+				"12000"	"40"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"	"600"
+				"12000"	"175"
+			}
+		}
+		
+		"value_556x45mm_hp"
+		{
+			"import"	"value_556x45mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"200"
+				"12000"	"150"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_556x45mm_ap"
+		{
+			"import"	"value_556x45mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"1000"
+				"12000"	"400"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"400"	"0.5"
+				"1000"	"0.1"
+			}
+		}
+		
+		"value_556x45mm_carbine"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/556x45.mdl"
+			
+			"Damage"
+			{
+				"10"	"100"
+				"450"	"80"
+				"12000"	"40"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"	"600"
+				"12000"	"175"
+			}
+		}
+		
+		"value_556x45mm_carbine_hp"
+		{
+			"import"	"value_556x45mm_carbine"
+			
+			"PenetrationPower"
+			{
+				"10"	"200"
+				"12000"	"150"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_556x45mm_carbine_ap"
+		{
+			"import"	"value_556x45mm_carbine"
+			
+			"PenetrationPower"
+			{
+				"10"	"1000"
+				"12000"	"400"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"400"	"0.5"
+				"1000"	"0.1"
+			}
+		}
+		
+		"value_762x33mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/762x33.mdl"
+			
+			"Damage"
+			{
+				"10"	"80"
+				"8000"	"40"
+			}
+		}
+		
+		"value_762x33mm_hp"
+		{
+			"import"	"value_762x33mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"150"
+				"8000"	"100"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_762x33mm_ap"
+		{
+			"import"	"value_762x33mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"500"
+				"8000"	"250"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"250"	"0.5"
+				"500"	"0.1"
+			}
+		}
+		
+		"value_762x39mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/762x39.mdl"
+			
+			"Damage"
+			{
+				"10"	"100"
+				"12000"	"80"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"	"600"
+				"12000"	"175"
+			}
+		}
+		
+		"value_762x39mm_hp"
+		{
+			"import"	"value_762x39mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"200"
+				"12000"	"150"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_762x39mm_ap"
+		{
+			"import"	"value_762x39mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"1000"
+				"12000"	"400"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"400"	"0.5"
+				"1000"	"0.1"
+			}
+		}
+		
+		"value_762x51mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/762x51.mdl"
+			"SuppressionIncrement"	"90"
+			
+			"Damage"
+			{
+				"10"	"160"
+				"20000"	"100"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"	"1100"
+				"20000"	"600"
+			}
+		}
+		
+		"value_762x51mm_hp"
+		{
+			"import"	"value_762x51mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"400"
+				"20000"	"200"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_762x51mm_ap"
+		{
+			"import"	"value_762x51mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"1500"
+				"20000"	"800"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"800"	"0.5"
+				"1500"	"0.1"
+			}
+		}
+		
+		"value_762x54mm"
+		{
+			"import"	"default"
+			"brass_model"	"models/weapons/shells/762x54.mdl"
+			"SuppressionIncrement"	"90"
+			
+			"Damage"
+			{
+				"10"	"160"
+				"20000"	"100"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"	"1100"
+				"20000"	"600"
+			}
+		}
+		
+		"value_762x54mm_hp"
+		{
+			"import"	"value_762x54mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"400"
+				"20000"	"200"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"1.00"
+				"HITGROUP_CHEST"	"1.00"
+				"HITGROUP_STOMACH"	"1.00"
+				"HITGROUP_LEFTARM"	"2.00"
+				"HITGROUP_RIGHTARM"	"2.00"
+				"HITGROUP_LEFTLEG"	"3.00"
+				"HITGROUP_RIGHTLEG"	"3.00"
+			}
+		}
+		
+		"value_762x54mm_ap"
+		{
+			"import"	"value_762x54mm"
+			
+			"PenetrationPower"
+			{
+				"10"	"1500"
+				"20000"	"800"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"800"	"0.5"
+				"1500"	"0.1"
+			}
+		}
+		
+		"ammo_model10"
+		{
+			"import"	"value_45acp"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"36"
+		}
+		
+		"ammo_model10_hp"
+		{
+			"import"	"value_45acp_hp"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"36"
+		}
+		
+		"ammo_model10_ap"
+		{
+			"import"	"value_45acp_ap"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"36"
+		}
+		
+		"ammo_m590"
+		{
+			"import"	"value_buckshot"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"48"
+		}
+		
+		"ammo_m590_slug"
+		{
+			"import"	"value_slug"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"48"
+		}
+		
+		"ammo_toz"
+		{
+			"import"	"value_buckshot"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"48"
+		}
+		
+		"ammo_toz_slug"
+		{
+			"import"	"value_slug"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"48"
+		}
+		
+		"ammo_m40a1"
+		{
+			"import"	"value_762x51mm"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"30"
+		}
+		
+		"ammo_m40a1_ap"
+		{
+			"import"	"value_762x51mm_ap"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"30"
+		}
+		
+		"ammo_mosin"
+		{
+			"import"	"value_762x54mm"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"30"
+		}
+		
+		"ammo_mosin_ap"
+		{
+			"import"	"value_762x54mm_ap"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"30"
+		}
+		
+		"magazine_m9"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_m9_hp"
+		{
+			"import"	"value_9x19mm_hp"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_m9_ap"
+		{
+			"import"	"value_9x19mm_ap"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_makarov"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"8"
+			"carry"	"6"
+		}
+		
+		"magazine_makarov_hp"
+		{
+			"import"	"value_9x19mm_hp"
+			"magsize"	"8"
+			"carry"	"6"
+		}
+		
+		"magazine_makarov_ap"
+		{
+			"import"	"value_9x19mm_ap"
+			"magsize"	"8"
+			"carry"	"6"
+		}
+		
+		"magazine_m45"
+		{
+			"import"	"value_45acp"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_m45_hp"
+		{
+			"import"	"value_45acp_hp"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_m45_ap"
+		{
+			"import"	"value_45acp_ap"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_m1911"
+		{
+			"import"	"value_45acp"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_m1911_hp"
+		{
+			"import"	"value_45acp_hp"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_m1911_ap"
+		{
+			"import"	"value_45acp_ap"
+			"magsize"	"7"
+			"carry"	"6"
+		}
+		
+		"magazine_mp5"
+		{
+			"import"	"value_9x19mm"
+			"carry"	"6"
+		}
+		
+		"magazine_mp5_hp"
+		{
+			"import"	"value_9x19mm_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_mp5_ap"
+		{
+			"import"	"value_9x19mm_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_mp5_tracer"
+		{
+			"import"	"value_9x19mm"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_mp40"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"32"
+			"carry"	"6"
+		}
+		
+		"magazine_mp40_hp"
+		{
+			"import"	"value_9x19mm_hp"
+			"magsize"	"32"
+			"carry"	"6"
+		}
+		
+		"magazine_mp40_ap"
+		{
+			"import"	"value_9x19mm_ap"
+			"magsize"	"32"
+			"carry"	"6"
+		}
+		
+		"magazine_mp40_tracer"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"32"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_sterling"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"34"
+			"carry"	"6"
+		}
+		
+		"magazine_sterling_hp"
+		{
+			"import"	"value_9x19mm_hp"
+			"magsize"	"34"
+			"carry"	"6"
+		}
+		
+		"magazine_sterling_ap"
+		{
+			"import"	"value_9x19mm_ap"
+			"magsize"	"34"
+			"carry"	"6"
+		}
+		
+		"magazine_sterling_tracer"
+		{
+			"import"	"value_9x19mm"
+			"magsize"	"34"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_ump45"
+		{
+			"import"	"value_45acp"
+			"magsize"	"25"
+			"carry"	"6"
+		}
+		
+		"magazine_ump45_hp"
+		{
+			"import"	"value_45acp_hp"
+			"magsize"	"25"
+			"carry"	"6"
+		}
+		
+		"magazine_ump45_ap"
+		{
+			"import"	"value_45acp_ap"
+			"magsize"	"25"
+			"carry"	"6"
+		}
+		
+		"magazine_ump45_tracer"
+		{
+			"import"	"value_45acp"
+			"magsize"	"25"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_ak74"
+		{
+			"import"	"value_545x39mm"
+			"carry"	"6"
+		}
+		
+		"magazine_ak74_hp"
+		{
+			"import"	"value_545x39mm_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_ak74_ap"
+		{
+			"import"	"value_545x39mm_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_ak74_tracer"
+		{
+			"import"	"value_545x39mm"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_aks74u"
+		{
+			"import"	"value_545x39mm"
+			"carry"	"6"
+		}
+		
+		"magazine_aks74u_hp"
+		{
+			"import"	"value_545x39mm_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_aks74u_ap"
+		{
+			"import"	"value_545x39mm_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_aks74u_tracer"
+		{
+			"import"	"value_545x39mm"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_mini14"
+		{
+			"import"	"value_556x45mm"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_mini14_hp"
+		{
+			"import"	"value_556x45mm_hp"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_mini14_ap"
+		{
+			"import"	"value_556x45mm_ap"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_mini14_tracer"
+		{
+			"import"	"value_556x45mm"
+			"magsize"	"20"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_m16a4"
+		{
+			"import"	"value_556x45mm"
+			"carry"	"6"
+		}
+		
+		"magazine_m16a4_hp"
+		{
+			"import"	"value_556x45mm_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_m16a4_ap"
+		{
+			"import"	"value_556x45mm_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_m16a4_tracer"
+		{
+			"import"	"value_556x45mm"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_m249"
+		{
+			"import"	"value_556x45mm"
+			"magsize"	"200"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_m249_hp"
+		{
+			"import"	"value_556x45mm_hp"
+			"magsize"	"200"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_m249_ap"
+		{
+			"import"	"value_556x45mm_ap"
+			"magsize"	"200"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_m4a1"
+		{
+			"import"	"value_556x45mm_carbine"
+			"carry"	"6"
+		}
+		
+		"magazine_m4a1_hp"
+		{
+			"import"	"value_556x45mm_carbine_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_m4a1_ap"
+		{
+			"import"	"value_556x45mm_carbine_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_m4a1_tracer"
+		{
+			"import"	"value_556x45mm_carbine"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_mk18"
+		{
+			"import"	"value_556x45mm_carbine"
+			"carry"	"6"
+		}
+		
+		"magazine_mk18_hp"
+		{
+			"import"	"value_556x45mm_carbine_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_mk18_ap"
+		{
+			"import"	"value_556x45mm_carbine_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_mk18_tracer"
+		{
+			"import"	"value_556x45mm_carbine"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_galil_sar"
+		{
+			"import"	"value_556x45mm_carbine"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_sar_hp"
+		{
+			"import"	"value_556x45mm_carbine_hp"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_sar_ap"
+		{
+			"import"	"value_556x45mm_carbine_ap"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_sar_tracer"
+		{
+			"import"	"value_556x45mm_carbine"
+			"magsize"	"35"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_galil"
+		{
+			"import"	"value_556x45mm_carbine"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_hp"
+		{
+			"import"	"value_556x45mm_carbine_hp"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_ap"
+		{
+			"import"	"value_556x45mm_carbine_ap"
+			"magsize"	"35"
+			"carry"	"6"
+		}
+		
+		"magazine_galil_tracer"
+		{
+			"import"	"value_556x45mm_carbine"
+			"magsize"	"35"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_m1a1"
+		{
+			"import"	"value_762x33mm"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_m1a1_hp"
+		{
+			"import"	"value_762x33mm_hp"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_m1a1_ap"
+		{
+			"import"	"value_762x33mm_ap"
+			"magsize"	"15"
+			"carry"	"6"
+		}
+		
+		"magazine_m1a1_tracer"
+		{
+			"import"	"value_762x33mm"
+			"magsize"	"15"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_sks"
+		{
+			"import"	"value_762x39mm"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_sks_hp"
+		{
+			"import"	"value_762x39mm_hp"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_sks_ap"
+		{
+			"import"	"value_762x39mm_ap"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_sks_tracer"
+		{
+			"import"	"value_762x39mm"
+			"magsize"	"20"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_akm"
+		{
+			"import"	"value_762x39mm"
+			"carry"	"6"
+		}
+		
+		"magazine_akm_hp"
+		{
+			"import"	"value_762x39mm_hp"
+			"carry"	"6"
+		}
+		
+		"magazine_akm_ap"
+		{
+			"import"	"value_762x39mm_ap"
+			"carry"	"6"
+		}
+		
+		"magazine_akm_tracer"
+		{
+			"import"	"value_762x39mm"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_rpk"
+		{
+			"import"	"value_762x39mm"
+			"magsize"	"75"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_rpk_hp"
+		{
+			"import"	"value_762x39mm_hp"
+			"magsize"	"75"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_rpk_ap"
+		{
+			"import"	"value_762x39mm_ap"
+			"magsize"	"75"
+			"carry"	"4"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"10"
+		}
+		
+		"magazine_m14"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_m14_hp"
+		{
+			"import"	"value_762x51mm_hp"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_m14_ap"
+		{
+			"import"	"value_762x51mm_ap"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_m14_tracer"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_l1a1"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_l1a1_hp"
+		{
+			"import"	"value_762x51mm_hp"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_l1a1_ap"
+		{
+			"import"	"value_762x51mm_ap"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_l1a1_tracer"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+		
+		"magazine_fal"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_fal_hp"
+		{
+			"import"	"value_762x51mm_hp"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_fal_ap"
+		{
+			"import"	"value_762x51mm_ap"
+			"magsize"	"20"
+			"carry"	"6"
+		}
+		
+		"magazine_fal_tracer"
+		{
+			"import"	"value_762x51mm"
+			"magsize"	"20"
+			"carry"	"6"
+			"tracer_frequency"	"5"
+			"tracer_type"	"whiz_with_line"
+			"tracer_lowammo"	"5"
+		}
+	}
+}

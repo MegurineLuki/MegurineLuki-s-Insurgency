@@ -1,0 +1,285 @@
+"#base"	"custom_reversed.theater"
+"#base"	"custom_reversed_coop_classes.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_recon_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m4a1"
+				"weapon_upgrade"	"barrel_silencer_sec1"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m67"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_specialist_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_mk18"
+				"weapon_upgrade"	"barrel_silencer_sec2"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m18"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_rifleman_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m16a4"
+				"weapon"	"weapon_m9"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_carrier"
+			}
+		}
+		
+		"template_breacher_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m4a1"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_c4_clicker"
+				"weapon"	"weapon_m18"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_engineer_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m4a1"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_c4_clicker"
+				"weapon"	"weapon_m18"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_demolitions_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m16a4"
+				"weapon"	"weapon_m9"
+				"weapon"	"weapon_at4"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_grenadier_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m16a4"
+				"weapon"	"weapon_m9"
+				"weapon"	"weapon_at4"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_support_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m249"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m18"
+				"gear"	"sec_heavy_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_designated_marksman_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m16a4"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m67"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_sniper_security"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_kabar"
+				"weapon"	"weapon_m16a4"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon"	"weapon_m45"
+				"weapon"	"weapon_m67"
+				"gear"	"sec_light_armor"
+				"gear"	"sec_chest_rig"
+			}
+		}
+		
+		"template_scout_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_aks74u"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_m18"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_specialist_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_ak74"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_m18"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_militant_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_aks74u"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_f1"
+				"gear"	"ins_heavy_armor"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_fighter_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_akm"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"gear"	"ins_light_armor"
+				"gear"	"ins_chest_carrier"
+			}
+		}
+		
+		"template_sapper_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_sterling"
+				"weapon_upgrade"	"barrel_silencer_integrated"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_c4_ied"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_bomber_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_akm"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_c4_ied"
+				"gear"	"ins_heavy_armor"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_striker_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_ak74"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_rpg7"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_rocketeer_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_ak74"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_rpg7"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_machinegunner_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_rpk"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_f1"
+				"gear"	"ins_heavy_armor"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_sharpshooter_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_sks"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_f1"
+				"gear"	"ins_chest_rig"
+			}
+		}
+		
+		"template_sniper_insurgent"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_gurkha"
+				"weapon"	"weapon_sks"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon"	"weapon_makarov"
+				"weapon"	"weapon_f1"
+				"gear"	"ins_chest_rig"
+			}
+		}
+	}
+}

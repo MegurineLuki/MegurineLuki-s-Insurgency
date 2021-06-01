@@ -1,0 +1,9 @@
+unlitgeneric
+{
+	$basetexture vgui/inventory/kit_ap_pistol
+	$ignorez 1
+	$no_fullbright 1
+	$translucent 1
+	$vertexalpha 1
+	$vertexcolor 1
+}

@@ -1,0 +1,54 @@
+"#base"	"custom_reversed_classic.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_rifleman_security"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_m16a4"
+				"weapon"	"weapon_l1a1"
+				"weapon"	"weapon_m4a1"
+				"weapon"	"weapon_galil_sar"
+				"weapon"	"weapon_m84"
+				"weapon_upgrade"	"underbarrel_m203_he"
+				"weapon_upgrade"	"underbarrel_m203_smoke"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"underbarrel_foregrip_sec1"	"0"
+					"underbarrel_foregrip_sec2"	"0"
+				}
+			}
+		}
+		
+		"template_fighter_insurgent"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_akm"
+				"weapon"	"weapon_m1a1"
+				"weapon"	"weapon_sks"
+				"weapon"	"weapon_ak74"
+				"weapon"	"weapon_galil"
+				"weapon"	"weapon_molotov"
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"underbarrel_foregrip_ins1"	"0"
+					"underbarrel_woodgrip"	"0"
+				}
+			}
+		}
+	}
+}

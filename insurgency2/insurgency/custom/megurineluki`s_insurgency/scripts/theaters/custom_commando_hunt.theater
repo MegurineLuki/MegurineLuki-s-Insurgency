@@ -1,0 +1,182 @@
+"#base"	"custom_commando.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_support_security_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m67"
+				"weapon"	"weapon_kabar_bot"
+				"weapon"	"weapon_m249_bot"
+				"gear"	"sec_heavy_armor_bot"
+				"gear"	"sec_chest_carrier_bot"
+				"gear"	"sec_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m67"	"-100"
+				}
+			}
+		}
+		
+		"template_machinegunner_insurgent_coop"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_f1"
+				"weapon"	"weapon_gurkha_bot"
+				"weapon"	"weapon_rpk_bot"
+				"gear"	"ins_heavy_armor_bot"
+				"gear"	"ins_chest_carrier_bot"
+				"gear"	"ins_nightvision_bot"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_f1"	"-100"
+				}
+			}
+		}
+	}
+	
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Leader_Specialist"	"template_specialist_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Rifleman"	"template_rifleman_security"
+					"#Squad_Fireteam_Breacher"	"template_breacher_security"
+					"#Squad_Fireteam_Demolitions"	"template_demolitions_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
+				}
+				
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Leader_Recon"	"template_recon_security"
+					"#Squad_Fireteam_Specialist"	"template_specialist_security"
+					"#Squad_Fireteam_Engineer"	"template_engineer_security"
+					"#Squad_Fireteam_Demolitions"	"template_demolitions_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Support"	"template_support_security"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
+					"#Squad_Fireteam_Sniper"	"template_sniper_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Bravo"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Charlie"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Delta"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Echo"
+				{
+					"#Team_Insurgent"	"template_specialist_insurgent_coop"
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+				
+				"#Cell_Foxtrot"
+				{
+					"#Team_Insurgent"	"template_militant_insurgent_coop"
+					"#Team_Insurgent"	"template_scout_insurgent_coop"
+					"#Team_Insurgent"	"template_fighter_insurgent_coop"
+					"#Team_Insurgent"	"template_rocketeer_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_machinegunner_insurgent_coop"
+					"#Team_Insurgent"	"template_sharpshooter_insurgent_coop"
+					"#Team_Insurgent"	"template_sniper_insurgent_coop"
+				}
+			}
+		}
+	}
+}
