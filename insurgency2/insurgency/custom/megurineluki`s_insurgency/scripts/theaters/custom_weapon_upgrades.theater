@@ -401,6 +401,22 @@
 			"maxcarry_override"	"-1"
 		}
 		
+		"base_optic_rail"
+		{
+			"viewmodel_attachments"
+			{
+				"ModKit02"
+				{
+					"model"	"models/weapons/upgrades/a_modkit_02.mdl"
+					
+					"weapons"
+					{
+						"weapon"	"weapon_toz"
+					}
+				}
+			}
+		}
+		
 		"optic_po4x24"
 		{
 			"allowed_weapons"

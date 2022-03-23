@@ -182,6 +182,14 @@
 				"maxrange"	"8000"
 				"spread"	"2.0 2.0 0.0"
 			}
+			
+			"viewmodel_attachments"
+			{
+				"ModKit02"
+				{
+					"model"	""
+				}
+			}
 		}
 		
 		"weapon_m40a1"
